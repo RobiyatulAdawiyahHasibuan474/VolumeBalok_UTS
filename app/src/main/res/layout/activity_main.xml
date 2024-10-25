@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_length"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/length_hint"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/et_width"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/width_hint"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/et_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/height_hint"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_button" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result_placeholder"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+</LinearLayout>

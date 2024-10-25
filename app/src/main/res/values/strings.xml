@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Volume Balok</string>
+    <string name="length_hint">Masukkan panjang balok</string>
+    <string name="width_hint">Masukkan lebar balok</string>
+    <string name="height_hint">Masukkan tinggi balok</string>
+    <string name="calculate_button">Hitung Volume</string>
+    <string name="result_placeholder">Hasil akan ditampilkan di sini</string>
+    <string name="result_text">Volume Balok: %.2f</string>
+    <string name="error_message">Semua input harus diisi!</string>
+</resources>
